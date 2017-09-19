@@ -1,0 +1,10 @@
+package br.edu.univas.exercicio3;
+
+public class startApp {
+	public static void main (String[] args){
+	
+	Frame tela1 = new Frame();
+	
+}
+
+}

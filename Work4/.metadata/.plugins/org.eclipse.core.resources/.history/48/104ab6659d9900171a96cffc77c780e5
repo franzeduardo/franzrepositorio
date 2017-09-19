@@ -1,0 +1,55 @@
+package br.edu.univas.exercicio3;
+
+import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+
+import br.edu.univas.Aula5.Tela3.ButtonListener;
+
+public class frame extends JFrame {
+
+	private static final long serialVersionUID = -4075743205996243476L;
+	private JPanel contentPane;
+	
+	public frame(){
+		this.setTitle("Aprendendo Swing");
+		this.setSize(400, 300);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setLocale(null);
+		addComponentes();
+	}
+	
+	public void addComponentes(){
+		contentPane = new JPanel();
+		this.setContentPane(contentPane);
+		JTextArea textarea = new JTextArea();
+		textarea.setPreferredSize(new Dimension(350,220));
+		contentPane.add(textarea);
+		
+	
+		JButton button1 = new JButton();
+		button1.setText("Adicionar Texto");
+		contentPane.add(button1);
+		
+		JButton button2 = new JButton();
+		button2.setText("Limpar Texto");
+		contentPane.add(button2);
+	}
+	
+	private class ButtonListener implements ActionListener{
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			
+			
+		}
+		
+	}
+	
+
+}

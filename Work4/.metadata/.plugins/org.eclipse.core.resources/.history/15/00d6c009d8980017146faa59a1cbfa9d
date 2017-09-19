@@ -1,0 +1,11 @@
+package br.edu.univas.Aula5;
+
+public class startApp {
+
+	public static void main(String[] args) {
+		Tela2 tela2 = new Tela2();
+		tela2.setVisible(true);
+
+	}
+
+}

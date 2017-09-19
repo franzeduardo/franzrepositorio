@@ -1,0 +1,9 @@
+package br.edu.univas.exercicio3;
+
+public class startApp {
+	public static void main (String[] args){
+	
+	main tela1 = new main();
+}
+
+}

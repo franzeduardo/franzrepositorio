@@ -1,0 +1,7 @@
+package br.edu.univas.exercicio3;
+
+public class startApp {
+	
+	main tela1 = new main();
+
+}

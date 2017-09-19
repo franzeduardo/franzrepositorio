@@ -1,0 +1,15 @@
+package br.edu.univas.Aula5;
+
+import javax.swing.JFrame;
+
+public class Tela1 extends JFrame {
+	
+	public Tela1(){
+		this.setSize(300,300);
+		this.setTitle("Aprendendo Layout");
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setLocationRelativeTo(null);
+		addComponents();
+	}
+
+}

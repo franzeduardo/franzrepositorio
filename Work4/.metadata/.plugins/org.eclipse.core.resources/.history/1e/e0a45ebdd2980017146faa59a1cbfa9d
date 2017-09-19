@@ -1,0 +1,9 @@
+package br.edu.univas.Aula5;
+
+public class startApp {
+
+	public static void main(String[] args) {
+		Tela1 tela1 = new Tela1();
+	}
+
+}

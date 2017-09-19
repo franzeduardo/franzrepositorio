@@ -1,0 +1,11 @@
+package br.edu.univas.Aula5;
+
+import javax.swing.JFrame;
+
+public class Tela1 extends JFrame {
+	
+	public Tela1(){
+		this.setSize(300,300);
+	}
+
+}
